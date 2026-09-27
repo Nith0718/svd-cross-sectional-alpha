@@ -14,7 +14,7 @@ extract a signal that predicts next-month returns across stocks?
 - About 475 US stocks, 2017–2024, downloaded with `yfinance` (daily prices,
   monthly rebalancing).
 - Nine characteristics per stock per month, including 12-month momentum,
-  1-month reversal, 60-day volatility, and size/turnover. [CHECK: the full list of nine]
+  1-month reversal, 60-day volatility, and size/turnover. 
 
 ## Pipeline (one stage per week, in order)
 
@@ -29,15 +29,18 @@ extract a signal that predicts next-month returns across stocks?
 Stages completed so far: none (repository created 27 Sep 2026; target 24 Dec 2026).
 
 ## How to run
+
+```bash
 pip install -r requirements.txt
 python run.py
+```
 
-(One command reproduces every figure. Not yet implemented.)
+One command reproduces every figure. Not yet implemented.
 
 ## Results
 
 Pending the rebuild. Numbers will be added only once they are reproduced here.
-[CHECK: the original report's headline figures, to compare against]
+
 
 ## Limitations I already know about
 
