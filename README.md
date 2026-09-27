@@ -13,8 +13,9 @@ extract a signal that predicts next-month returns across stocks?
 
 - About 475 US stocks, 2017–2024, downloaded with `yfinance` (daily prices,
   monthly rebalancing).
-- Nine characteristics per stock per month, including 12-month momentum,
-  1-month reversal, 60-day volatility, and size/turnover. 
+- Nine characteristics per stock per month, including 12-month momentum(MOM),
+  1-month reversal(REV), 60-day volatility(VOL) ,Daily volatility(DVOL), size/market capitalization(SIZE),
+  Illiquidity / Turnover(illq) ,Maximum daily return (maxret), 52-week high ratio(high52) ,systemic market risk/sensitivity relative to the broader market(beta). 
 
 ## Pipeline (one stage per week, in order)
 
